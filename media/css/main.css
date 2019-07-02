@@ -1,0 +1,48 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+.header {
+	height:200px;
+	background:url('../img/fon.jpg');
+}
+
+#logo {
+	float:left;
+}
+
+#logotext {
+	float:right;
+}
+
+.topmenu {
+	display:flex;
+	width:100%;
+	margin:0 auto;
+}
+
+.topmenu a{
+	flex:1;
+	display:block;
+	padding:10px;
+	text-align:center;
+	color: grey;
+	background: blue;
+	text-decoration:none;
+	font-size:17px;
+	border-right:solid 1px white;
+	text-shadow:1px 1px 1px black;
+}
+
+.topmenu a:hover{
+	background:green;
+}
+
+.footer {
+	background:#fefefe;
+	padding-top:60px;
+	padding-bottom:60px;
+	text-align:center;
+	margin-top:20px;
+}
