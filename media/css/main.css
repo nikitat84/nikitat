@@ -5,15 +5,24 @@ body {
 
 .header {
 	height:200px;
-	background:url('../img/fon.jpg');
+	background:url('../img/bg1.jpg');
 }
 
 #logo {
 	float:left;
+	margin-left: 20px;
+	margin-top: 25px;
 }
 
 #logotext {
 	float:right;
+	margin-top:60px;
+	margin-right:20px;
+	font-size:25px;	
+}
+
+#logotext a {
+	color: white;
 }
 
 .topmenu {
@@ -27,8 +36,8 @@ body {
 	display:block;
 	padding:10px;
 	text-align:center;
-	color: grey;
-	background: blue;
+	color: white;
+	background: #33c1e3;
 	text-decoration:none;
 	font-size:17px;
 	border-right:solid 1px white;
@@ -36,13 +45,16 @@ body {
 }
 
 .topmenu a:hover{
-	background:green;
+	background:blue;
+}
+
+.container {
+	margin-top: 20px;
 }
 
 .footer {
-	background:#fefefe;
-	padding-top:60px;
-	padding-bottom:60px;
+	background:#33c1e3;
 	text-align:center;
 	margin-top:20px;
+	color: white;
 }
